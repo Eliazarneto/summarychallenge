@@ -7,7 +7,7 @@
 }
 
 article {
-    background-color: black;
+    background-color: rgb(80, 73, 73);
     display: flex;
     justify-content: center;
     align-items: center;
