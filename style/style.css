@@ -214,3 +214,36 @@ article {
     cursor: pointer;
     background-color: rgb(83, 83, 219);
 }
+
+@media screen and (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(80, 73, 73);
+    }
+    
+    article {
+        max-width: 100%;
+        display: table-row;
+        align-items: center;
+        margin: center;
+        align-self: center;
+        align-content: center; 
+        justify-content: center;       
+    }
+
+    .notasmain {
+        margin: auto;
+        margin-left: 5vh;
+    }
+
+    .resultados {
+        margin-left: 5vh;
+    }
+
+
+}
