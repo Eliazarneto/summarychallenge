@@ -42,7 +42,7 @@ article {
     margin-top: 15px;
 }
 
-.nota-recebida {
+#nota-recebida {
     color: white;
     margin-top: 13px;
     font-size: 60px;
@@ -73,6 +73,7 @@ article {
     background-color: white;
     height: 400px;
     width: 250px;
+    margin-left: 10px;
 }
 
 .notasmain h1 {
