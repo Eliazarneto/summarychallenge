@@ -12,6 +12,7 @@ var nota_rea = document.getElementById('nota-reação')
 var nota_mem = document.getElementById('nota-memoria')
 var nota_com = document.getElementById('nota-comunicação')
 var nota_vis = document.getElementById('nota-visual')
+var comentario = document.getElementById('comentario')
 
 var nota_rec = document.getElementById('nota-recebida')
 var nota_final = (reação + memoria + comunicação + visual) / 4
@@ -22,3 +23,11 @@ nota_com.innerHTML = `${comunicação}`
 nota_vis.innerHTML = `${visual}`
 
 nota_rec.innerHTML = `${Math.round(nota_final)}`
+
+if (nota_final <= 40) {
+    comentario.innerHTML = `Ruim`
+} else if (nota_final <= 65){
+    comentario.innerHTML = `Bom`
+} else {
+    comentario.innerHTML = `Ótimo`
+}
