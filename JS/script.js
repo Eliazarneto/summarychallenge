@@ -1,4 +1,4 @@
-window.prompt('Vamos iniciar com a digitação das notas nos prompts a seguir')
+window.alert('Vamos iniciar com a digitação das notas nos prompts a seguir')
 var reação = Number.parseFloat(window.prompt('Digite a nota de reação (0 a 100): '))
 var memoria = Number.parseFloat(window.prompt('Digite a nota de memoria (0 a 100): '))
 var comunicação = Number.parseFloat(window.prompt('Digite a nota de comunicação (0 a 100): '))
