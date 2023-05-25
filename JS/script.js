@@ -21,19 +21,19 @@ function calcular() {
     }
 
     if (rea > 100 || rea < 0) {
-        window.alert('Digite um número de 1 a 100')
+        window.alert('Digite uma nota entre 1 a 100 para reação')
     }
 
     if (mem > 100 || mem < 0) {
-        window.alert('Digite um número de 1 a 100')
+        window.alert('Digite uma nota entre 1 a 100 para memória')
     }
 
     if (com > 100 || com < 0) {
-        window.alert('Digite um número de 1 a 100')
+        window.alert('Digite uma nota entre 1 a 100 para comunicação')
     }
 
     if (vis > 100 || vis < 0) {
-        window.alert('Digite um número de 1 a 100')
+        window.alert('Digite uma nota entre 1 a 100 para visual')
     }
 
     var nota_rec = document.getElementById('nota-recebida')

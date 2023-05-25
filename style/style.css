@@ -259,6 +259,21 @@ article {
     color: black;
 }
 
+input {
+    background-color: white;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+input::-webkit-outer-spin-button, ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) {
 
     * {
