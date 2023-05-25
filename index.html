@@ -17,7 +17,19 @@
             </div>
             <h2 id="comentario"></h2>
             <p class="comentariotext">Sua pontuação foi maior que 65% das pessoas que fizeram esse teste.</p>
+            <button id="btndigitar" onclick="Digitarnotas()">Digitar notas</button>
         </div>
+        
+
+        <div id="introduzir">
+            <h1 class="res">Seus Resultados</h1>
+            <p>Reação</p><input type="number" name="rea" id="rea">
+            <p>Memória</p><input type="number" name="mem" id="mem">
+            <p>Comunicação</p><input type="number" name="com" id="com">
+            <p>Visual</p><input type="number" name="vis" id="vis">
+            <button class="btn" onclick="calcular()">Calcular</button>
+        </div>
+
         
         <div class="notasmain">
             <h1>Notas</h1>
@@ -72,7 +84,9 @@
                         <div class="nota-maxima"> <p>/ 100</p>
                         </div>
                     </div>
+                    
                 </div>
+                
             </div>
 
             <div class="notas">
@@ -92,8 +106,12 @@
                     </div>
                 </div>
             </div>
+
+            
             <button class="btn">Continuar</button>
+
     </article>
+        
 
     <script src="JS/script.js"></script>
 </body>
