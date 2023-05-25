@@ -20,6 +20,22 @@ function calcular() {
         digit.style.display = 'block'
     }
 
+    if (rea > 100 || rea < 0) {
+        window.alert('Digite um número de 1 a 100')
+    }
+
+    if (mem > 100 || mem < 0) {
+        window.alert('Digite um número de 1 a 100')
+    }
+
+    if (com > 100 || com < 0) {
+        window.alert('Digite um número de 1 a 100')
+    }
+
+    if (vis > 100 || vis < 0) {
+        window.alert('Digite um número de 1 a 100')
+    }
+
     var nota_rec = document.getElementById('nota-recebida')
     var nota_final = (rea + mem + com + vis) / 4
 
