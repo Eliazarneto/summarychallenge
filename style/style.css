@@ -226,11 +226,15 @@ article {
         background-color: rgb(80, 73, 73);
     }
     
+
+
     article {
         max-width: 100%;
-        display: table-row;
+        margin-top: 2vh;
+        height: 100%;
+        display: grid;
         align-items: center;
-        margin: center;
+        
         align-self: center;
         align-content: center; 
         justify-content: center;       
@@ -238,11 +242,7 @@ article {
 
     .notasmain {
         margin: auto;
-        margin-left: 5vh;
-    }
-
-    .resultados {
-        margin-left: 5vh;
+        margin-top: 2vh;
     }
 
 
