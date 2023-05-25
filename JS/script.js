@@ -62,7 +62,7 @@ function calcular() {
     
  }
 
-//function que da um display a div de digitação de notas 
+//function que da um display=block a div de digitação de notas 
 function Digitarnotas() {
     var digitaçao = document.getElementById('introduzir')
 
