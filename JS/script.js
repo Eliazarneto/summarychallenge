@@ -14,11 +14,16 @@ function calcular() {
     //botão que puxa a variavel digitar notas
     var digit = document.getElementById('btndigitar')
     //comando que faz o botao aparecer ou sumir após o click -  deveria sumir
-    if(digit.style.display === 'block') {
+    /*if(digit.style.display === 'block') {
         digit.style.display = 'none'
     } else {
         digit.style.display = 'block'
-    }
+    }*/
+
+
+        digit.style.display = 'none'
+
+        
     //alerta para as notas digitadas erradas
     //nao faz o calculo caso os valores estejam fora dos parametros
     if (rea > 100 || rea < 0) {
@@ -65,13 +70,17 @@ function calcular() {
 //function que da um display=block a div de digitação de notas 
 function Digitarnotas() {
     var digitaçao = document.getElementById('introduzir')
-
-    if (digitaçao.style.display == 'none') {
+    digitaçao.style.display = 'block'
+    /*if (digitaçao.style.display == 'none') {
         digitaçao.style.display = 'block'
     } else {
         digitaçao.style.display = 'none'
-    }
+    }*/
  }      
+
+ function continuar() {
+    window.location.reload(true);
+ }
 
 
 
